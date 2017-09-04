@@ -1,0 +1,12 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    {{title}}!
+  </h1>
+  <h2>
+    noze
+  </h2>
+  <ul class="noze">
+    <li *ngFor="let kudla of noze" (click)="onSelect(kudla)" [class.selected]="kudla===selectedNuz"><span class="badge">{{kudla.id}}</span>{{kudla.name}}</li>
+  </ul>
+  <nuz-detail [nuz]="selectedNuz"></nuz-detail>

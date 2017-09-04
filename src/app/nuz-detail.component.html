@@ -1,0 +1,9 @@
+<div *ngIf="nuz">
+  <h2>
+    {{nuz.name}} - Detaily produktu
+  </h2>
+  <div><label>id:</label> {{nuz.id}}</div>
+  <div><label>jmeno:</label>
+    <input [(ngModel)]="nuz.name" placeholder="name">
+  </div>
+</div>
