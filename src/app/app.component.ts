@@ -13,7 +13,7 @@ export class AppComponent implements OnInit{
     this.getNoze();
   }
 
-  title = 'Noze-nuzd';
+  title = 'Noze-nuz';
   selectedNuz: Nuz;
   noze: Nuz[];
 
